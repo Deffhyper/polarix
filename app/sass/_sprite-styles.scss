@@ -1,0 +1,11 @@
+.icon-sprite {
+  display: inline-block;
+}
+
+.shoes-sprite {
+  @include sprite($shoes);
+}
+
+.watch-sprite {
+  @include sprite($watch);
+}
