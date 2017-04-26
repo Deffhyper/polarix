@@ -411,6 +411,7 @@ ul, ol, li {
 
 .second-section {
   padding-top: 105px;
+  position: relative;
 
   .section-title {
     margin-bottom: 90px;
@@ -454,6 +455,18 @@ ul, ol, li {
       line-height: 1.6;
       margin-bottom: 25px;
     }
+  }
+  .circle__decor-3 {
+    width: 66px;
+    height: 66px;
+    top: 151px;
+    right: 157px;
+  }
+  .circle__decor-4 {
+    width: 40px;
+    height: 40px;
+    top: 156px;
+    right: 280px;
   }
 }
 
@@ -637,10 +650,16 @@ ul, ol, li {
   .day.green {
     background-color: #7be352;
     color: #fff;
+    &:hover {
+      background-color: #89f354;
+    }
   }
   .day.red {
     background-color: #f6a496;
     color: #fff;
+    &:hover {
+      background-color: #ffac9e;
+    }
   }
   .datepicker table tr td.new, .datepicker table tr td.old {
     background-color: #e5e5e6;
@@ -668,8 +687,40 @@ ul, ol, li {
 
 .about-company {
   padding-left: 262px;
+  position: relative;
   p {
     margin-bottom: 20px;
+  }
+  .circle__decor-5 {
+    height: 20px;
+    width: 20px;
+    top: 35px;
+    left: 120px;
+  }
+  .circle__decor-6 {
+    height: 40px;
+    width: 40px;
+    top: 175px;
+    left: 110px;
+
+  }
+  .circle__decor-7 {
+    height: 20px;
+    width: 20px;
+    bottom: 158px;
+    left: 121px;
+  }
+  .circle__decor-8 {
+    height: 40px;
+    width: 40px;
+    bottom: -10px;
+    left: 110px;
+  }
+  .circle__decor-9 {
+    height: 20px;
+    width: 20px;
+    bottom: -150px;
+    left: 121px;
   }
 
 }
@@ -678,7 +729,7 @@ ul, ol, li {
   padding-top: 70px;
   .section-title {
     padding-left: 110px;
-    margin-bottom: 38px;
+    margin-bottom: 42px;
   }
   .about-company {
     .section-title {
@@ -687,7 +738,31 @@ ul, ol, li {
   }
 }
 
+.modal {
 
+  .modal-content {
+    position: relative;
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 20;
+      cursor: pointer;
+    }
+  }
+
+
+  .modal-body {
+    padding: 45px 15px 15px;
+  }
+
+  .modal-video {
+    iframe {
+      width: 100%;
+
+    }
+  }
+}
 
 
 
